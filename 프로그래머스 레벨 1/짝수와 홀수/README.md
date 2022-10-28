@@ -1,4 +1,4 @@
-# Coding-test solved in 평균값 구하기
+# Coding-test solved in 짝수와 홀수
 
 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12944
 </tr>
