@@ -1,6 +1,6 @@
 # programmers-problems
 
-문제 링크[url=https://https://school.programmers.co.kr/learn/courses/30/lessons/12944[/url]
+문제 링크[url=https://school.programmers.co.kr/learn/courses/30/lessons/12944[/url]
 
 문제 설명
  
