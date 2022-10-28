@@ -18,7 +18,18 @@ arr의 원소는 -10,000 이상 10,000 이하인 정수입니다.
 
 입출력 예
  
-arr	return
-[1,2,3,4]	2.5
-[5,5]	5
+<p data-ke-size="size16">&nbsp;</p>
+<table style="border-collapse: collapse; width: 100%;" border="1" data-ke-align="alignLeft" data-ke-style="style12">
+<tbody>
+<tr>
+<td style="width: 50%;">arr</td>
+<td style="width: 50%;">return</td>
+</tr>
+<tr>
+<td style="width: 50%;">[1,2,3,4]</td>
+<td style="width: 50%;">2.5</td>
+</tr>
+</tbody>
+</table>
+</div>
  
