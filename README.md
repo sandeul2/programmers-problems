@@ -32,10 +32,6 @@
 </tbody>
 </table>
 </div>
-<p data-ke-size="size16">&nbsp;</p>
-<p data-ke-size="size16">&nbsp;</p>
-<script src="https://gist.github.com/popiiy53/62bf321b073d01afeb35ccdd82c015e5.js"></script>
-<p data-ke-size="size16">&nbsp;</p>
-<p data-ke-size="size16">&nbsp;</p>
-<p>[##_Image|kage@bP7Vk4/btrPg1QBjUW/9DZmXWzR37ATwhpZbH64VK/img.png|CDM|1.3|{"originWidth":435,"originHeight":506,"style":"alignCenter"}_##]</p>
+
+
  
