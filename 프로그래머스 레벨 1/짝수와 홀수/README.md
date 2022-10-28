@@ -1,4 +1,4 @@
-#Coding-test solved in 평균값 구하기
+# Coding-test solved in 평균값 구하기
 
 <h3 id="%EB%AC%B-%EC%A-%-C%--%EC%--%A-%EB%AA%--" data-ke-size="size23"><b>문제 설명</b></h3>
 <p data-ke-size="size16">&nbsp;</p>
