@@ -1,5 +1,4 @@
-# Coding-test solved in 
-정수 제곱근 판별
+# Coding-test solved in 정수 제곱근 판별
 
 
 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12934
