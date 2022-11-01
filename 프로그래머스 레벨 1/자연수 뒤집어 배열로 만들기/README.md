@@ -10,7 +10,6 @@
 <p data-ke-size="size16">[5,4,3,2,1]을 리턴 합니다.</p>
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16">&nbsp;</p>
-<p data-ke-size="size16">&nbsp;</p>
 <h3 id="%EB%AC%B-%EC%A-%-C%--%EC%--%A-%EB%AA%--" data-ke-size="size23"><b>제한 조건</b></h3>
 <p data-ke-size="size16">&nbsp;</p>
 <ul style="list-style-type: disc;" data-ke-list-type="disc">
