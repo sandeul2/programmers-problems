@@ -1,8 +1,8 @@
 # Coding-test solved in 문자열 내 p 와 y의 개수
 
-
+<p data-ke-size="size16">&nbsp;</p>
 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12916
-
+<p data-ke-size="size16">&nbsp;</p>
 <h3 id="%EB%AC%B-%EC%A-%-C%--%EC%--%A-%EB%AA%--" data-ke-size="size23"><b>문제 설명</b></h3>
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16">대문자와 소문자가 섞여있는 문자열 s가 주어집니다. s에 'p'의 개수와 'y'의 개수를 비교해 같으면 True,</p>
