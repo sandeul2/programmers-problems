@@ -2,6 +2,7 @@
 <p data-ke-size="size16">&nbsp;</p>
 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12947
 <p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">&nbsp;</p>
 <h3 id="%EB%AC%B-%EC%A-%-C%--%EC%--%A-%EB%AA%--" data-ke-size="size23"><b>문제 설명</b></h3>
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16">양의&nbsp;정수&nbsp;x가&nbsp;하샤드&nbsp;수이려면&nbsp;x의&nbsp;자릿수의&nbsp;합으로&nbsp;x가&nbsp;나누어져야&nbsp;합니다.&nbsp;</p>
