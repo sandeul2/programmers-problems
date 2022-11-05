@@ -1,7 +1,7 @@
 # Coding-test solved in 자릿수 더하기
 
 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12931
-
+<p data-ke-size="size18">&nbsp;</p>
 <h3 id="%EB%AC%B-%EC%A-%-C%--%EC%--%A-%EB%AA%--" data-ke-size="size23"><b>문제 설명</b></h3>
 <p data-ke-size="size18">&nbsp;</p>
 <p data-ke-size="size16"><span style="font-size: 1.12em; letter-spacing: 0px;">자연수 N이 주어지면, N의 각 자릿수의 합을 구해서 return 하는 solution 함수를 만들어 주세요.</span></p>
