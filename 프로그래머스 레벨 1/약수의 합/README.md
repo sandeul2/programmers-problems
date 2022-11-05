@@ -1,7 +1,7 @@
 # Coding-test solved in 약수의 합
 
 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12928
-
+<p data-ke-size="size18">&nbsp;</p>
 <h3 id="%EB%AC%B-%EC%A-%-C%--%EC%--%A-%EB%AA%--" data-ke-size="size23"><b>문제 설명</b></h3>
 <p data-ke-size="size18">&nbsp;</p>
 <p data-ke-size="size16">정수 n을 입력받아 n의 약수를 모두 더한 값을 리턴하는 함수, solution을 완성해주세요.</p>
