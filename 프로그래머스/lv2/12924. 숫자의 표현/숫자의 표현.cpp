@@ -1,31 +1,18 @@
 using namespace std;
 
-
-
 int solution(int n) {
-
-    int num = (n + 1) / 2;
-
-    int sum = 0, answer = 1, j = 1;
-
-    
-
-    for(int i = 1; i <= num; i++){
-
-        sum += i;
-
-        if(sum >= n){
-
-            while(sum > n) sum -= j++;
-
-            if(sum == n) answer++;
-
+    int answer = 0, tmp = 0;
+    for(int i = 1; i <= n; i++){
+        tmp = i;
+        for(int j = i + 1; j <= n; j++){
+            if(tmp == n) {
+                answer++; 
+                break;
+            }
+            if(tmp + j > n)
+                break;
+            tmp += j;
         }
-
     }
-
-    
-
-    return n != 1 ? answer : 1;
-
+    return answer + 1;
 }
