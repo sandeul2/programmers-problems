@@ -4,8 +4,7 @@
 
 using namespace std;
 
-int solution(string s)
-{
+int solution(string s){
     stack<char> stack;
     for (int i = 0; i < s.length(); i++) {
         if (stack.empty()) {
