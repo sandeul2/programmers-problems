@@ -1,21 +1,24 @@
 #include <string>
 #include <vector>
+#include <regex>
 
 using namespace std;
 
-vector<string> v ={"zero", "one", "two", "three", "four",
-                   "five", "six", "seven", "eight", "nine"};
-
 long long solution(string numbers) {
     long long answer = 0;
-    
-    while(numbers.length()!=0){
-        for(int i=0; i<v.size(); i++){ 
-            if(numbers.substr(0, v[i].length())==v[i]){
-                answer=answer*10+i;
-                numbers=numbers.substr(v[i].length());
-            }
-        }
-    }
+
+    numbers = regex_replace(numbers, regex("zero"), "0");
+    numbers = regex_replace(numbers, regex("one"), "1");
+    numbers = regex_replace(numbers, regex("two"), "2");
+    numbers = regex_replace(numbers, regex("three"),"3");
+    numbers = regex_replace(numbers, regex("four"), "4");
+    numbers = regex_replace(numbers, regex("five"), "5");
+    numbers = regex_replace(numbers, regex("six"), "6");
+    numbers = regex_replace(numbers, regex("seven"), "7");
+    numbers = regex_replace(numbers, regex("eight"), "8");
+    numbers = regex_replace(numbers, regex("nine"), "9");
+
+    answer = stoll(numbers);
+
     return answer;
 }
