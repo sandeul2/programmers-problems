@@ -1,19 +1,18 @@
 #include <string>
 #include <vector>
+#include <cmath>
 
 using namespace std;
 
-int factorial(int n, int m){
-    if(n == m || m == 0) 
-        return 1; 
-    else 
-        return factorial(n - 1, m - 1) + factorial(n - 1, m);
-}
-
 int solution(int balls, int share) {
-    int answer = 0;
+    long long answer = 0;
+    share = min(balls - share, share);
+    if (share == 0)
+            return 1;
+    
+    answer = solution(balls - 1, share - 1);
+        answer *= balls;
+        answer /= share;
 
-    answer = factorial(balls, share);
-
-    return answer;
-}
+        return answer;
+    }
