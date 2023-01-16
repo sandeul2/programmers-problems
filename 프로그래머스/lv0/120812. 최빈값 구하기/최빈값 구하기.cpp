@@ -9,7 +9,7 @@ vector<int> arr(2010);
 int solution(vector<int> array) {
     int answer = 0;
     for(int i = 0; i < array.size(); i++){
-        arr[array[i]+999]++;
+        arr[array[i]]++;
     }
 
     int max = 0;
@@ -28,5 +28,5 @@ int solution(vector<int> array) {
         }
     }
 
-    return answer - 999;
+    return answer;
 }
