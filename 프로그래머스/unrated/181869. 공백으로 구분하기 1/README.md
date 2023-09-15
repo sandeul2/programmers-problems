@@ -1,10 +1,10 @@
 # [unrated] 공백으로 구분하기 1 - 181869 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181869?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181869?language=cpp) 
 
 ### 성능 요약
 
-메모리: 78.3 MB, 시간: 0.04 ms
+메모리: 4.22 MB, 시간: 0.01 ms
 
 ### 구분
 
