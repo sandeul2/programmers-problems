@@ -1,16 +1,21 @@
 #include <string>
 #include <vector>
-#include <sstream>
-#include <regex>
 
 using namespace std;
 
-vector<string> solution(string myStr) {
-    myStr = regex_replace(myStr, regex("[abc]"), " ");    
+vector<string> solution(string myStr){
     vector<string> answer;
-    stringstream ss(myStr);
-    string str;
-    while(ss >> str) answer.emplace_back(str);
-    if(answer.empty()) answer.emplace_back("EMPTY");
+    int idx=0;
+    string tmp;
+    myStr+="a";
+    for(int i=0; i<myStr.length(); i++){
+        if(myStr[i]=='a' || myStr[i]=='b' || myStr[i]=='c'){
+            tmp=myStr.substr(idx, i-idx);
+            if(!tmp.empty()) answer.push_back(tmp);
+            idx=i+1;
+        }
+    }
+    if(answer.empty()) answer.push_back("EMPTY");
+
     return answer;
 }
