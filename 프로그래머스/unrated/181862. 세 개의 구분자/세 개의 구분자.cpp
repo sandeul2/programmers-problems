@@ -3,19 +3,25 @@
 
 using namespace std;
 
-vector<string> solution(string myStr){
+vector<string> solution(string myStr) {
     vector<string> answer;
-    int idx=0;
-    string tmp;
-    myStr+="a";
-    for(int i=0; i<myStr.length(); i++){
-        if(myStr[i]=='a' || myStr[i]=='b' || myStr[i]=='c'){
-            tmp=myStr.substr(idx, i-idx);
-            if(!tmp.empty()) answer.push_back(tmp);
-            idx=i+1;
+    string s ="";
+    for(int i=0; i<myStr.size();i++){
+        if(myStr[i]=='a'||myStr[i]=='b'||myStr[i]=='c'){
+            if(s.size()==0)
+                continue;
+            else {
+                answer.push_back(s);
+                s="";
+            }
+        }
+        else{
+            s+=myStr[i];
         }
     }
-    if(answer.empty()) answer.push_back("EMPTY");
-
+    if(s.size()==0 && answer.size()==0)
+        answer.push_back("EMPTY");
+    else 
+        answer.push_back(s);
     return answer;
 }
