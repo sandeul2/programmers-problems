@@ -1,18 +1,23 @@
 #include <string>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
 vector<int> solution(vector<int> arr) {
-    auto pos_a = find(arr.begin(), arr.end(), 2);
-    auto pos_b = find(arr.rbegin(), arr.rend(), 2).base();
     vector<int> answer;
-    if(pos_a == arr.end()){
-        answer.emplace_back(-1);
-    } 
+    int _min = arr.size(), _max = -1;
+    for(int i=0;i<arr.size();i++){
+        if(arr[i]==2){
+            _min = min(_min,i);
+            _max = max(_max,i);
+        }
+    }
+
+    if(_max-_min<0) 
+        answer.push_back(-1);
     else{
-        answer.insert(answer.end(), pos_a, pos_b);
+        for(int i=_min;i<=_max;i++) 
+            answer.push_back(arr[i]);
     }
     return answer;
 }
