@@ -1,10 +1,10 @@
 # [unrated] 원하는 문자열 찾기 - 181878 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181878?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181878?language=cpp) 
 
 ### 성능 요약
 
-메모리: 78.4 MB, 시간: 4.36 ms
+메모리: 4.21 MB, 시간: 0.37 ms
 
 ### 구분
 
