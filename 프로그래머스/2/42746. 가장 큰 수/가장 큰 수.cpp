@@ -1,31 +1,22 @@
-#include <algorithm>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
-bool compare(const string &a, const string &b)
-{
-    if (b + a < a + b)
-        return true;
-    return false;
+bool cmp(int a, int b){
+    string s1 = to_string(a) + to_string(b);
+    string s2 = to_string(b) + to_string(a);
+    return s1 > s2;
 }
 
 string solution(vector<int> numbers) {
     string answer = "";
-
-    vector<string> strings;
-
-    for (int i : numbers)
-        strings.push_back(to_string(i));
-
-    sort(strings.begin(), strings.end(), compare);
-
-    for (auto iter = strings.begin(); iter < strings.end(); ++iter)
-        answer += *iter;
-
-    if (answer[0] == '0')
-        answer = "0";
-
-    return answer;
+    //1. 큰 값으로 정렬하기
+    sort(numbers.begin(), numbers.end(), cmp);
+    //2. numbers배열에서 한개씩 값에 붙이기 반복
+    for(auto& i : numbers)
+        answer += to_string(i);
+    //3. 배열의 값이 0일때 가정
+    return answer[0] == '0' ? "0" : answer;
 }
