@@ -5,16 +5,16 @@ using namespace std;
 
 vector<string> solution(string my_string) {
     vector<string> answer;
-    string a;
+    string temp;
     for(int i=0;i<my_string.size();i++){
         if(my_string[i] == ' '){
-            answer.push_back(a);
-            a.clear();
+            answer.push_back(temp);
+            temp.clear();
         } 
         else{
-            a.push_back(my_string[i]);
+            temp += my_string[i];
         }
     }
-    answer.push_back(a);
+    answer.push_back(temp);
     return answer;
 }
