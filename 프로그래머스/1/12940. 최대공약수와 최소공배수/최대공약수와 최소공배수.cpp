@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int max_isprime(int a ,int b){
+int max_isprime(int a ,int b) {
     int n;
     while(b!=0){
         n = a%b;
@@ -13,7 +13,7 @@ int max_isprime(int a ,int b){
     return a;
 }
 
-int min_multiple(int a , int b){
+int min_multiple(int a , int b) {
     return a*b / max_isprime(a,b);
 }
 
