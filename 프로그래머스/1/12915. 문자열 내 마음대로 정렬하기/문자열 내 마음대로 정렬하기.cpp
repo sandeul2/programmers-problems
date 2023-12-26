@@ -5,11 +5,11 @@
 using namespace std;
 
 int i;
-bool compare(string a, string b){
+
+bool compare(string a, string b) {
     if(a[i] == b[i]){
         return a < b;
-    }
-    else{
+    } else{
         return a[i] < b[i];
     }
 }
@@ -17,5 +17,6 @@ bool compare(string a, string b){
 vector<string> solution(vector<string> strings, int n) {
     i=n;
     sort(strings.begin(), strings.end(), compare);
+    
     return strings;
 }
