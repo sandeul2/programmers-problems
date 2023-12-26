@@ -7,12 +7,12 @@ vector<int> solution(string s) {
     vector<int> answer;
     int zero = 0, ng = 0;
     
-    while(s != "1"){
+    while(s != "1") {
         string arr = "";
         int size = 0, num;
         ng++;
         
-        for(int i = 0; i < s.size(); i++){
+        for(int i = 0; i < s.size(); i++) {
             if(s[i] == '0')
                 zero++;
             else
