@@ -8,13 +8,11 @@ int solution(string s){
     for (int i = 0; i < s.length(); i++) {
         if (stack.empty()) {
             stack.push(s[i]);
-        }
-        else {
+        } else {
             if (stack.top() == s[i]) {
                 stack.pop();
                 continue;
-            }
-            else {
+            } else {
                 stack.push(s[i]);
             }
         }
