@@ -10,14 +10,12 @@ int solution(vector<int> numbers) {
     sort(numbers.begin(), numbers.end());
 
     int index = 0;
-    for (int i = 0; i < 10; i++){
-        if (i != numbers[index]){
+    for (int i = 0; i < 10; i++) {
+        if (i != numbers[index]) {
             answer += i;
-        }
-        else
+        } else
             index++;
     }
-
 
     return answer;
 }
