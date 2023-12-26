@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int toBinary(int n){
+int to_binary(int n)
+{
     string r; int count = 0;
     while (n != 0) {
         r += (n % 2 == 0 ? "0" : "1");
@@ -17,11 +18,11 @@ int toBinary(int n){
 }
 
 int solution(int n) {
-    int count1 = toBinary(n); int count2 = 0;
+    int count1 = to_binary(n); int count2 = 0;
     
     while(count1 != count2){
         n++;
-        count2 = toBinary(n);
+        count2 = to_binary(n);
     }
     return n;
 }
