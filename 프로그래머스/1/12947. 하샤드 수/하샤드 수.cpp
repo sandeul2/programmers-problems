@@ -8,11 +8,9 @@ bool solution(int x) {
     while(temp>0){
         a += temp%10;
         temp/=10;
-    }
-    if(x % a == 0){
+    } if(x % a == 0) {
         answer =true;
-    }
-    else
+    } else
         answer =false;
     
     return answer;
