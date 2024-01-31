@@ -1,13 +1,17 @@
 #include <string>
+#include <iostream>
 #include <vector>
 
 using namespace std;
 
 int solution(int n) {
     int answer = 0;
-        for(int i=1; i<=n; i++) {
-            if(n%i==0)
-                answer +=i;
-        }
+    
+    for(int i=1; i<=n; i++) {
+        if(n%i == 0) {
+            answer += i;
+        } else
+            cout << "error" << endl;
+    }
     return answer;
 }
