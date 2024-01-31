@@ -11,7 +11,7 @@ bool solution(string s) {
       if(s[i]=='y' || s[i]=='Y')
           ycount++;
   }
-  if(pcount ==ycount) {
+  if(pcount == ycount) {
       answer = true;
   } else 
       answer =false;
