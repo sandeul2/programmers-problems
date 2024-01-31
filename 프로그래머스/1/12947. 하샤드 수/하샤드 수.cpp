@@ -4,14 +4,17 @@
 using namespace std;
 
 bool solution(int x) {
-    bool answer = false; int temp=x; int a=0;
-    while(temp>0){
-        a += temp%10;
-        temp/=10;
-    } if(x % a == 0) {
-        answer =true;
+    bool answer = true; int temp = x; int digit = 0;
+    
+    while(temp > 0) {
+        digit += (temp % 10);
+        temp /= 10;
+        
+    }
+    if(x % digit == 0) {
+        answer = true;
     } else
-        answer =false;
+        answer = false;
     
     return answer;
 }
